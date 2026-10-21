@@ -1,0 +1,2 @@
+[start]
+cmd = "python3 -m http.server ${PORT:-8080} --directory web --bind 0.0.0.0"

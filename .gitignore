@@ -1,0 +1,5 @@
+.DS_Store
+.railway/
+*.log
+.venv/
+__pycache__/

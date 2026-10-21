@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: plata
+    runtime: python
+    plan: free
+    region: frankfurt
+    rootDir: .
+    buildCommand: "true"
+    startCommand: "python3 -m http.server $PORT --directory web --bind 0.0.0.0"
+    autoDeploy: true
